@@ -3,7 +3,7 @@ app:
   profile:
   replicaCount: 1
   hostAliases: []
-  image: ${CONTAINER_REGISTRY_URI}/test-img:latest
+  image: clouddx-public-new.kr-central-1.kcr.dev/test-img:latest
   resources: {}
   service:
     type: LoadBalancer
